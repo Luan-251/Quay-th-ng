@@ -65,6 +65,5 @@ const prizeWeights = [
       spinning = false;
       resultDiv.innerText = `${name} (${phone}) đã trúng voucher giảm ${selectedPrize}!`;
       localStorage.setItem(`spun_${phone}`, selectedPrize);
-    }, 4200);
+    }, 6200);
   }
-  
